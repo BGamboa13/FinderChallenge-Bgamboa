@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# Finder Challenge
 
-You can use the [editor on GitHub](https://github.com/BGamboa13/FinderChallenge-Bgamboa/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Contenido
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Este desafío contiene las siguientes herramientas:
 
-### Markdown
+- [Gulp](http://gulpjs.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Pug](https://pugjs.org/api/getting-started.html)
 
-```markdown
-Syntax highlighted code block
+- [Stylus](http://stylus-lang.com/)
 
-# Header 1
-## Header 2
-### Header 3
+- [rupture](http://jescalan.github.io/rupture/)
 
-- Bulleted
-- List
+## Requisitos previos
 
-1. Numbered
-2. List
+Se requiere tener las últimas versiones instaladas de:
 
-**Bold** and _Italic_ and `Code` text
+- [nodejs - recomendable v.5.0.0](https://nodejs.org/es/)
 
-[Link](url) and ![Image](src)
+- [bower - recomendable v.1.8.x](https://bower.io/)
+
+- [gulp-cli de forma global](http://gulpjs.com/)
+
+## Cómo desarrollarlo
+
+Para desarrollar esta aplicación se debe trabajar en la carpeta **src**.
+
+A la vez, se debe tener en cuenta para el desarrollo:
+
+- [Los lineamientos técnicos](https://bitbucket.org/unt_taller_es/finderchallenge/wiki/Lineamientos%20t%C3%A9cnicos)
+
+- [La distribución de archivos](https://bitbucket.org/unt_taller_es/finderchallenge/wiki/Estructura%20de%20directorios%20y%20archivos)
+
+- [La estructura del archivo books-schema.json](https://bitbucket.org/unt_taller_es/finderchallenge/wiki/Estructura%20del%20archivo%20books-schema.json)
+
+- [Las tareas de gulp en el desafío](https://bitbucket.org/unt_taller_es/finderchallenge/wiki/Tareas%20de%20gulp)
+
+Lo preferente es desarrollar con el menor uso de librerías de terceros, en caso se necesite, se tiene esta guía:
+
+- [Instalación de librerías terceras](https://bitbucket.org/unt_taller_es/finderchallenge/wiki/Instalaci%C3%B3n%20de%20librer%C3%ADas%20terceras)
+
+
+## Cómo visualizarlo
+
+Para visualizar la aplicación, ejecutar los siguientes comandos en consola:
+
+```
+npm install
+
+bower install
+
+gulp build
+
+gulp server
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BGamboa13/FinderChallenge-Bgamboa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+El último comando indicado iniciará la aplicación en la dirección url **http://localhost:8089**
